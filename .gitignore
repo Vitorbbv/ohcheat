@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/oooh/.vs/oooh/v15
+/oooh/oooh/oooh/obj
+/oooh/oooh/oooh.Android/obj
+/oooh/oooh/oooh.UWP/obj
