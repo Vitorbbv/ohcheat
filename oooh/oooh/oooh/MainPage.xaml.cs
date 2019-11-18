@@ -12,6 +12,7 @@ namespace oooh
         public MainPage()
         {
             InitializeComponent();
+            //Oo
         }
     }
 }
