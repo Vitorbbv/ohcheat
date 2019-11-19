@@ -12,7 +12,9 @@ namespace oooh
         public MainPage()
         {
             InitializeComponent();
+            //É HORA DO CONFLITO!
             //Oo
+            //macumba
         }
     }
 }
