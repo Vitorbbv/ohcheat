@@ -12,16 +12,9 @@ namespace oooh
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class CheatsPage : ContentPage
 	{
-        string cheats;
 		public CheatsPage ()
 		{
 			InitializeComponent ();
 		}
-        private void BtnCheats1_Clicked(object sender, EventArgs e)
-        {
-            cheats = "Jogo";
-            //Navegacao para a pagina da estoria do aluno
-            Navigation.PushAsync(new AddGamePage(cheats));
-        }
-    }
+	}
 }

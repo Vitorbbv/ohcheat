@@ -5,13 +5,18 @@
              x:Class="oooh.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <SearchBar x:Name="BarraPesquisa" 
-                       Placeholder="Pesquisa" 
-                       SearchCommand="{Binding PesquisaCommand}" 
-                       Text="{Binding Valor, Mode=TwoWay}">
-            </SearchBar>
-            <Label Text="Você Pesquisou:" />
-            <Label Text="{Binding Valor}" />
+
+
+            <Label Text="O seu dicionário de cheats!"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Rotation="0"
+               IsVisible="true"
+               FontSize="Large"
+               FontAttributes="None"
+               TextColor="Black" />
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
